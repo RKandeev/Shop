@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    text-transform: uppercase;
+    padding: 0 25px;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav-right .nav-link {
+    color: black;
+    text-transform: initial;
+    font-weight: normal;
+    padding: 0 15px;
+}
+
+.search-block {
+    background-color: #f2f4f6;
+    text-align: right;
+    padding: 15px 0;
+}
+
+.search-block .container {
+    position: relative;
+}
+
+.search-block-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-block-form {
+    position: relative;
+}
+
+.search-block-input {
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    font-size: 16px;
+}
+
+.search-block-submit {
+    background-image: url(../img/loup.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    background-color: transparent;
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search-block-input:focus {
+    outline: none;
+}
+
+.footer-phone {
+    display: flex;
+}
+
+.footer-phone-icon {
+    color: #686868;
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.footer-phone-text,
+.footer-heading {
+    margin: 0;
+}
+
+.footer-heading {
+    font-size: 12px;
+    font-weight: 700;
+    color: #686868;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-phone-text a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #686868;
+}
+
+.footer-link {
+    color: #686868;
+    font-size: 12px;
+}
+
+.footer-link .fas {
+    color: #686868;
+    margin-right: 5px;
+}
+
+.footer-link a {
+    color: #686868;
+}
+
+.footer-link-bottom {
+    margin-bottom: 5px;
+}
+
+.search-block-form-bottom .search-block-input {
+    width: 100%;
+}
+
+.search-block-form-bottom .search-block-submit {
+    background-image: url(../img/Icon.svg);
+}
+
+.social-icons {
+    margin-top: 35px;
+}
+
+.social-icons a {
+    color: #7c7c7c;
+    margin-right: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 29px 0 4px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.navigation a {
+    color: #636363;
+    margin: 0 10px;
+}
+
+.details-sect hr {
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.product-name {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #282828;
+}
+
+.product-price span span {
+    text-decoration: underline;
+}
+
+.select-weight,
+.select-quantity {
+    border: none;
+    outline: none;
+    padding: 20px 15px;
+    background-color: #dedede;
+}
+
+.cart-set {
+    display: flex;
+    align-items: center;
+}
+
+.select-weight {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.cart-set {
+    margin: 0;
+}
+
+.cart-put {
+    display: inline-block;
+    padding: 20px 9%;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+.paypal {
+    display: inline;
+    background-color: #ffc439;
+    padding: 14px 30px;
+}
+
+.delivery-info {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.remains,
+.delivery-type,
+.delivery-tel a,
+.delivery-mail a {
+    font-size: 14px;
+}
+
+.remains,
+.delivery-type,
+.delivery-tel,
+.delivery-mail {
+    margin: 10px 0;
+}
+
+.remains {
+    color: #55bbab;
+}
+
+.delivery-icon {
+    margin-right: 25px;
+}
+
+.fa-truck.delivery-icon {
+    margin-right: 20px;
+}
+
+.delivery-info a {
+    color: #282828;
+}
+
+h3 {
+    font-size: 20px;
+    color: #282828;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.product-desc-full {
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.bgleaves {
+    width: 100%;
+}
+
+.img-big {
+    width: 100%;
+}
